@@ -77,7 +77,7 @@ def engineer_features(data):
 # --- Streamlit UI and Input Collection ---
 
 # Use custom classes for title and subtitle
-st.markdown("<h1 class='main-title'>🎯 Term Deposit Subscription Predictor</h1>", unsafe_allow_html=True)
+st.markdown("<h1 class='main-title'>Term Deposit Subscription Predictor</h1>", unsafe_allow_html=True)
 st.markdown("""
 <p class='subtitle'>
     This application leverages a <b>fine-tuned XGBoost Classifier</b> to evaluate client profiles and economic indicators, 
